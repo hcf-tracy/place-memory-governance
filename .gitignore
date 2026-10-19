@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Unpublished benchmark data and internal research artifacts
+/data/
+/results/
+/docs/
+/tools/
+
+# Local runtime artifacts
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+*.pid
+server_runtime/
+release_evidence/
+.env
+.env.*

@@ -1,0 +1,9 @@
+# ASF V7.12.4 server runtime. Do NOT install mem0ai[graph]: that extra pulls unused
+# graph backends (including Apache AGE/psycopg2) and can require pg_config.
+mem0ai==1.0.11
+ollama==0.6.2
+PyYAML>=6.0,<7
+requests>=2.31,<3
+pytest>=8.2,<9
+matplotlib>=3.8,<4
+networkx>=3.2,<4
